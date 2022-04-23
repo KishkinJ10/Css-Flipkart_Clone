@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+:root{
+    --main-bg-color:#2874f0
+}
+.row{
+    font-family: Roboto,Arial,sans-serif;
+    font-style: normal;
+    padding-top: 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background-color: var(--main-bg-color);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 33px;
+    border-radius: 3px;
+    margin: 0 16px 0 40px;
+    padding: 0 12px;
+}
+.slider{
+    margin: 12px auto;
+    width: 60vw;
+    /* To make sure image is responsive */
+    overflow: hidden;
+}
+.card{
+    /* background-color: aqua; */
+    max-width: 90vw;
+    margin: 30px auto;
+}
+.card h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+}
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(45, 27, 177);
+    font-weight: bold;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.base-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
